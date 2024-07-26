@@ -1,2 +1,47 @@
 @charset "UTF-8";
 
+*{
+    margin: 0px;
+    padding: 0px;
+}
+#conteiner{
+    position: relative;
+    margin: 10px 10px;
+    
+}
+
+#Barra_de_nav{
+    margin: 10px 10px;
+    padding: 10px 10px;
+    border: 2px solid black;
+    width: 95%;
+    height: 90px;
+    display: flex;
+    position: relative;
+    align-content: center;
+}
+
+
+
+ul{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    gap: 16px;
+    padding: 24px 0;
+    border: 2px solid black; 
+    position: relative;
+    width: 300px;
+    position: absolute;
+    left: 60%;
+    top: 20%;
+}
+ul li a{
+    padding: 20px;
+}
+
+#Perfil{
+    border: 2px solid black;
+    height: 85vh;
+    text-align: center;
+}
