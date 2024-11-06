@@ -4,44 +4,59 @@
     margin: 0px;
     padding: 0px;
 }
-#conteiner{
-    position: relative;
-    margin: 10px 10px;
-    
-}
 
-#Barra_de_nav{
-    margin: 10px 10px;
-    padding: 10px 10px;
+nav{
     border: 2px solid black;
-    width: 95%;
-    height: 90px;
     display: flex;
-    position: relative;
-    align-content: center;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 20px;
+    align-items: center;
+}
+#midias > img{
+    height: 17px;
+    padding: 10px;
 }
 
-
-
-ul{
-    list-style: none;
-    display: flex;
-    flex-direction: row;
-    gap: 16px;
-    padding: 24px 0;
-    border: 2px solid black; 
-    position: relative;
-    width: 300px;
-    position: absolute;
-    left: 60%;
-    top: 20%;
-}
-ul li a{
+nav #menu  a{
+    text-decoration: none;
     padding: 20px;
 }
 
-#Perfil{
+#Principal{
     border: 2px solid black;
-    height: 85vh;
-    text-align: center;
+    
+}
+#perfil{
+    border: 2px solid red;
+    padding: 30px 240px;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    height: 86vh;
+    
+}
+
+#perfil img {
+    height: 700px;
+}
+
+#perfil p{
+    font-size: 30px;
+    width: 700px;
+    text-align: left;
+    height: 200px;
+    align-content: center;
+    margin-top: 90px;
+}
+.destaquetx{
+    font-size: 50px;
+}
+
+
+
+
+#Sobre_mim{
+    border: 2px solid rebeccapurple;
 }
