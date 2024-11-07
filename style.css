@@ -29,34 +29,49 @@ nav #menu  a{
 }
 #perfil{
     border: 2px solid red;
-    padding: 30px 240px;
+    padding: 10px 300px;
     display: flex;
     align-items: center;
     flex-wrap: wrap;
     justify-content: space-between;
-    height: 86vh;
+    height: 800px;
     
 }
 
 #perfil img {
     height: 700px;
+    position:absolute;
+    left: 1300px;
+    top: 40px;
 }
 
 #perfil p{
-    font-size: 30px;
+    font-size: 40px;
     width: 700px;
     text-align: left;
     height: 200px;
     align-content: center;
-    margin-top: 90px;
+    margin-bottom: 120px;
+    
 }
 .destaquetx{
-    font-size: 50px;
+    font-size: 60px;
 }
-
-
-
 
 #Sobre_mim{
     border: 2px solid rebeccapurple;
+    padding: 50px;
+    justify-items: center;
+}
+
+#Sobre_mim h2 {
+    font-size: 50px;
+}
+
+#Sobre_mim p {
+    border: 2px solid green;
+    width: 800px;
+    font-size: 20px;
+    align-items: center;
+    margin: 30px;
 }
