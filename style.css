@@ -13,7 +13,7 @@ nav{
     padding: 20px;
     align-items: center;
 }
-#midias > img{
+#midias > a >img{
     height: 17px;
     padding: 10px;
 }
