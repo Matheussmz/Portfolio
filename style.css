@@ -115,11 +115,13 @@ nav #menu  a{
     background-color: var(--cor1);
     text-align: center;
     align-content: center;
+    border-radius: 20px;
 }
 
 .proj img{
     width: 560px;
     height: 300px;
+    border-radius: 20px;
 }
 
 .descrição{
@@ -131,6 +133,7 @@ nav #menu  a{
     padding: 30px;
     background-color: var(--cor1);
     margin-bottom: 30px;
+    border-radius: 20px;
 }
 
 .descrição p {
