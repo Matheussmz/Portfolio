@@ -75,3 +75,42 @@ nav #menu  a{
     align-items: center;
     margin: 30px;
 }
+#projetos{
+    border: 2px solid blueviolet;
+    height: 900px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 100px;
+    justify-content: center;
+    gap: 50px;
+    
+}
+.proj{
+    border: 2px solid magenta;
+    width: 510px;
+    height: 300px;
+    
+    text-align: center;
+    align-content: center;
+}
+
+.proj img{
+    width: 500px;
+    border: 2px solid black;
+}
+
+.descrição{
+    border: 2px solid magenta;
+    width: 450px;
+    height: 500px;
+    text-align: center;
+    align-content: center;
+    text-align: justify;
+    padding: 30px;
+}
+
+.descrição p {
+    font-size: 18px;
+
+}
