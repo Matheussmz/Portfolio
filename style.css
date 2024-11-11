@@ -20,6 +20,7 @@ nav{
     align-items: center;
     background-color: var(--cor0);
     color: var(--cor3);
+    font-size: 30px;
 }
 #midias > a >img{
     height: 17px;
@@ -30,6 +31,7 @@ nav #menu  a{
     text-decoration: none;
     padding: 20px;
     color: var(--cor3);
+    font-size: 20px;
     
 }
 
@@ -61,6 +63,7 @@ nav #menu  a{
     height: 200px;
     align-content: center;
     margin-bottom: 120px;
+    color: var(--cor3);
     
 }
 .destaquetx{
