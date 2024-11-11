@@ -4,6 +4,13 @@
     margin: 0px;
     padding: 0px;
 }
+:root{
+    --cor0: #A09F8D;
+    --cor1: #C5C5B9;
+    --cor2: #E5E1D8;
+    --cor3: #31312F;
+    --cor4: #E2E3DD;
+}
 
 nav{
     border: 2px solid black;
@@ -12,6 +19,8 @@ nav{
     justify-content: space-between;
     padding: 20px;
     align-items: center;
+    background-color: var(--cor0);
+    color: var(--cor3);
 }
 #midias > a >img{
     height: 17px;
@@ -21,10 +30,13 @@ nav{
 nav #menu  a{
     text-decoration: none;
     padding: 20px;
+    color: var(--cor3);
+    
 }
 
 #Principal{
     border: 2px solid black;
+    background-color: var(--cor4);
     
 }
 #perfil{
@@ -74,23 +86,33 @@ nav #menu  a{
     font-size: 20px;
     align-items: center;
     margin: 30px;
+    padding: 20px;
+    color: var(--cor3);
+    background-color: var(--cor1);
 }
 #projetos{
     border: 2px solid blueviolet;
-    height: 900px;
+    height: 970px;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     padding: 100px;
     justify-content: center;
     gap: 50px;
+    background-color: var(--cor4);
     
+}
+#projetos h2{
+    font-size: 50px;
+    text-align: center;
+    border: 2px solid bisque;
+    width: 9000px;
 }
 .proj{
     border: 2px solid magenta;
     width: 510px;
     height: 300px;
-    
+    background-color: var(--cor1);
     text-align: center;
     align-content: center;
 }
@@ -108,9 +130,18 @@ nav #menu  a{
     align-content: center;
     text-align: justify;
     padding: 30px;
+    background-color: var(--cor1);
 }
 
 .descrição p {
     font-size: 18px;
+    
 
+}
+
+footer{
+    text-align: center;
+    font-size: 20px;
+    padding: 20px;
+    background-color: var(--cor0);
 }
