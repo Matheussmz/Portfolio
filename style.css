@@ -5,11 +5,11 @@
     padding: 0px;
 }
 :root{
-    --cor0: #A09F8D;
+    /*--cor0: #A09F8D;
     --cor1: #C5C5B9;
     --cor2: #E5E1D8;
     --cor3: #31312F;
-    --cor4: #E2E3DD;
+    --cor4: #E2E3DD;*/
 }
 
 nav{
@@ -40,29 +40,30 @@ nav #menu  a{
     
 }
 #perfil{
-    padding: 10px 300px;
+    padding: 10px 90px;
     display: flex;
     align-items: center;
     flex-wrap: wrap;
     justify-content: space-between;
-    height: 810px;
-    
+    height: 830px;
+    border: 2px solid black;
 }
 
 #perfil img {
-    height: 700px;
-    position:absolute;
+    height: 500px;
+    /*position:absolute;
     left: 1300px;
-    top: 40px;
+    top: 40px;*/
+    border: 2px solid black;
 }
 
 #perfil p{
-    font-size: 40px;
-    width: 700px;
+    font-size: 45px;
+    width: 800px;
     text-align: left;
     height: 200px;
     align-content: center;
-    margin-bottom: 120px;
+    
     color: var(--cor3);
     
 }
