@@ -50,11 +50,11 @@ nav #menu  a{
 }
 
 #perfil img {
-    height: 500px;
+    height: 600px;
     /*position:absolute;
     left: 1300px;
     top: 40px;*/
-    border: 2px solid black;
+   
 }
 
 #perfil p{
@@ -63,6 +63,7 @@ nav #menu  a{
     text-align: left;
     height: 200px;
     align-content: center;
+    margin-left: 150px;
     
     color: var(--cor3);
     
@@ -149,3 +150,4 @@ footer{
     padding: 20px;
     background-color: var(--cor0);
 }
+
