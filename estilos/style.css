@@ -5,11 +5,11 @@
     padding: 0px;
 }
 :root{
-    /*--cor0: #A09F8D;
+    --cor0: #A09F8D;
     --cor1: #C5C5B9;
     --cor2: #E5E1D8;
     --cor3: #31312F;
-    --cor4: #E2E3DD;*/
+    --cor4: #E2E3DD;
 }
 
 nav{
@@ -46,7 +46,6 @@ nav #menu  a{
     flex-wrap: wrap;
     justify-content: space-between;
     height: 830px;
-    border: 2px solid black;
 }
 
 #perfil img {
